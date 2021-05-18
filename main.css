@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+.header {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 5px;
+    background-color: #000000;
+}
+#logo {
+    width: 150px;
+    border-radius: 100px;
+}
+.menu {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover{
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0);
+}
+
+.barramenu {
+    border: black solid 1px;
+}
+.barramenu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+.barramenu li {
+    display: block;
+    float: left;
+}
+.barramenu li a {
+    text-decoration: none;
+    display: block;
+}
+
+.barramenu li:hover > ul {
+    display: block;
+}
+
+.barramenu li ul {
+    display: none;
+}
+
+.barramenu li a:hover {
+    background-color: #434343;
+}
+
+/*Carrusel
+
+.carrusel {
+
+}
+.carrusel .img {
+    
+}
+.carrusel .grande {
+
+}
+.carrusel .puntos {
+
+}
+
+.carrusel .punto {
+
+}*/
